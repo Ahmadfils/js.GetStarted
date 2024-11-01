@@ -54,3 +54,40 @@ function printFarmInventory(cows, chicken){
     console.log(`${chickenString} Chickens`);
 }
 printFarmInventory(7, 11);
+
+//factorielle
+function factorial(n){
+    if (n == 0){
+        return 1;
+    }
+    else {
+        return factorial(n - 1) * n;
+    }
+
+}
+console.log(factorial(10));
+
+let day1 = {
+    squirrel : false,
+    events : ["work", "touched tree", "pizaa", "pizza"],
+}
+
+let varfizz = 'Fizz';
+let varbuzz = 'Buzz';
+let varboth = 'FizzBuzz';
+
+for(let i = 1; i <= 100; i++){
+    if(i % 3 == 0){
+        console.log(varfizz);
+    }else if(i % 5 == 0){
+        console.log(varbuzz);
+    }else if(i % 3 == 0 && i % 5 == 0){
+        console.log(varboth);
+    }else{
+        console.log('No response !');
+    }
+}
+
+let listofnumbers = [3, 4, 4, 18, 27, 247, 289];
+console.log(listofnumbers[4]);
+console.log(listofnumbers[3]);
