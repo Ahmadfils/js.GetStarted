@@ -1,9 +1,12 @@
 
 //Triangle avec les #
-for (let i = 0; i <= 9; i++) {
-    for (let j = 0; j <= i; j++) {
+let i = 0, j = 0;
+while ( i <= 9 ) {
+    while ( j <= i ) {
         console.log('#');
+        j++;
     }
+    i++;
 }
 //addition du 1-10
 let total = 0, count = 1;
