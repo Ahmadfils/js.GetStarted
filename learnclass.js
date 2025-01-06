@@ -21,3 +21,6 @@ console.log(temp.fahrenheit);
 
 temp.fahrenheit = 86;
 console.log(temp.celcius);
+
+let boil = Temperature.fromFahrenheit(100);
+console.log(boil.celcius);
