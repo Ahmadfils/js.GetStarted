@@ -36,3 +36,8 @@ let dateTime = /\d\d-\d\d-\d\d\d\d \d\d:\d\d/;
 console.log(dateTime.test("08-12-2013 17:56"));
 
 console.log(dateTime.test("03-jan-1920 12:10"));
+
+console.log(/'\d+'/.test("'123'"));
+
+let dateTimes = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/;
+console.log(dateTimes.test("1-30-2003 8:45"));
