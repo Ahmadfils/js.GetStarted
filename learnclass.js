@@ -24,3 +24,15 @@ console.log(temp.celcius);
 
 let boil = Temperature.fromFahrenheit(100);
 console.log(boil.celcius);
+
+
+// Regular Express
+
+console.log(/abc/.test("abcde"));
+
+console.log(/[0-9]/.test("in 1992"));
+
+let dateTime = /\d\d-\d\d-\d\d\d\d \d\d:\d\d/;
+console.log(dateTime.test("08-12-2013 17:56"));
+
+console.log(dateTime.test("03-jan-1920 12:10"));

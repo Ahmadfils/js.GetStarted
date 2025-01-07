@@ -94,3 +94,9 @@ for(let i = 1; i <= 100; i++){
 let listofnumbers = [3, 4, 4, 18, 27, 247, 289];
 console.log(listofnumbers[4]);
 console.log(listofnumbers[3]);
+
+// Regular Express
+
+console.log(/abc/.test("abcde"));
+
+console.log(/[0-9]/.test("in 1992"));
