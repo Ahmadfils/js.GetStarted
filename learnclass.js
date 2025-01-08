@@ -46,4 +46,8 @@ console.log(/\p{Script=Greek}/u.test("α"));
 
 console.log(/\p{Script=Arabic}/u.test("α"));
 
-let dateTime = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/;
+let dateTimesss = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/;
+console.log(dateTime.test("1-30-2003 8:45"));
+
+let cartoonCrying = /boo+(hoo+)+/i;
+console.log(cartoonCrying.test("Boohoooohoohooo"));
