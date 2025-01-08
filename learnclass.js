@@ -41,3 +41,9 @@ console.log(/'\d+'/.test("'123'"));
 
 let dateTimes = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/;
 console.log(dateTimes.test("1-30-2003 8:45"));
+
+console.log(/\p{Script=Greek}/u.test("α"));
+
+console.log(/\p{Script=Arabic}/u.test("α"));
+
+let dateTime = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/;
